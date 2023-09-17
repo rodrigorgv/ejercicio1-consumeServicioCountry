@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DatosPersonaComponent } from './datos-persona/datos-persona.component';
+import { ListarProveedoresComponent } from './listar-proveedores/listar-proveedores.component';
+import { ListarInventarioComponent } from './listar-inventario/listar-inventario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatosPersonaComponent
+    DatosPersonaComponent,
+    ListarProveedoresComponent,
+    ListarInventarioComponent
   ],
   imports: [
     BrowserModule,
