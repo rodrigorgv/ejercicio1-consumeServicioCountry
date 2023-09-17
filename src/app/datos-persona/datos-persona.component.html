@@ -1,0 +1,7 @@
+<div>
+  <p>Nombre: {{ persona.nombre }}</p>
+  <p>Fecha de nacimiento: {{ persona.fechaNacimiento | date:'MMMM dd, yyyy' }}</p>
+  <p>Salario: {{ persona.salario | currency:'USD':'code':'1.2-2' }}</p>
+  <p>Profesión: {{ persona.profesion | uppercase }}</p>
+  <p>Porcentaje de inglés: {{ persona.porcentajeIngles | percent:'2.2-2' }}</p>
+</div>
